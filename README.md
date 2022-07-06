@@ -1,7 +1,7 @@
 # Credit_Risk_Analysis
 
 
-##Overview of the Project
+## Overview of the Project
 
 The purpose of this analysis is to understand how to utilize Machine Learning statistical algorithms to make predictions based on data patterns provided. In this challenge, we focus on Supervised Learning using a free dataset from LendingClub, a P2P lending service company to evaluate and predict credit risk. This reason why this is called "Supervised Learning" is because the data includes a labeled outcome.
 
