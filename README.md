@@ -8,9 +8,31 @@ The purpose of this analysis is to understand how to utilize Machine Learning st
 To complete this analysis, we use different Machine Learning techniques to train and evaluate the data with unbalanced classes. The dataset from the LendingClub has an unbalanced classification problem due to the number of good loans outweighing the amount of risky loans. In order balance out the classifications to allow for more meaningful predictions and improve the accuracy score, we needed to employ various Machine Learning algorithms to resample the data. These algorithms include RandomOverSampler, SMOTE, ClusterCentroids, SMOTEENN, BalancedRandomForestClassifier, and EasyEnsembleClassifier.
 
 
+Naive Random Oversampling results: Our balanced accuracy test it 67%, the precision for the high_risk has a very low positivity at 1% and the recall is 74%
+
+<img width="1382" alt="1" src="https://user-images.githubusercontent.com/100106554/177469097-bc8da43d-11f6-4529-aed9-037f6992c8f9.png">
+
+SMOTE oversampling results: the accuracy score is 66.2%, the precision for the high_risk loans has a low positvity again at 1% and recall is 69% overall
 
 
+<img width="1286" alt="2" src="https://user-images.githubusercontent.com/100106554/177469110-e16f13fc-2bed-4d33-add5-b1d6908504e2.png">
 
+
+Undersampling results: balanced accuracy score is 66.2% overall, the precision is at 99% and the recall is 41%
+<img width="1315" alt="3" src="https://user-images.githubusercontent.com/100106554/177469125-f83954d4-ebbd-41ad-a533-0b4643dd5d68.png">
+
+Combination(over and undersampling) results: balanced accuracy score is 54.7% the precision is 99% and the recall is 57% overall
+
+<img width="1355" alt="4" src="https://user-images.githubusercontent.com/100106554/177469679-9ec24c38-645f-4719-b7cc-0e501cfa5bea.png">
+
+Balanced Random Forest Classifier results: the accuracy score is 77.2% the precision is 99% and the recall is 88%
+
+<img width="1293" alt="5" src="https://user-images.githubusercontent.com/100106554/177469685-88ed099b-68bb-4025-af84-9e59b5316f9c.png">
+
+
+Easy Ensemble AdaBoost Classifier results: the accuracy score is 91.7% the precision is 99% and the recall is 94%
+
+<img width="1353" alt="6" src="https://user-images.githubusercontent.com/100106554/177469695-6a47c4f8-4b8b-4b00-bf4b-bdcc8f92f975.png">
 
 
 ## Summary
